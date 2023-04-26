@@ -1,1 +1,9 @@
-# master-thesis
+# What makes intersections hazardous for cyclists? - A geospatial risk analysis
+
+Cyclists are involved in a disproportionately high number of traffic accidents. Approximately fifty percent of accidents involving cyclists occur at intersections. Cyclists are eager to proactively counteract these dangers. However, the current standard representation of an intersection in the transportation network, a zero-dimensional node in the graph model, is insufficient to investigate the events that take place at an intersection in more detail. Therefore, it is imperative to process an intersection in a way that the risk for cyclists can be represented and evaluated. This is the goal of this thesis.
+
+Based on the GIP (Intermodal Transport Reference System of Austria) and using SQL scripts, this thesis accomplishes the conversion of the zero-dimensional node into a one- and two-dimensional representation of the intersection. The result is a lane-accurate resolution of the intersection that reflects turning maneuvers. In this form, the intersection can be evaluated in detail using risk factors that affect the risk to a bicyclist at an intersection. The factors are identified in advance through a review of the literature.
+
+The results of this thesis have the ability to evaluate the turning relations of an intersection with respect to their accident risk. This gives cyclists the opportunity to choose a low risk route and actively ensure their safety. Furthermore, it is possible to simulate the influence of traffic measures on the safety of cyclists. Furthermore, the model allows decision makers to identify and improve high-risk intersections. The two-dimensional representation also facilitates the identification of intersection risk zones and is a precursor to the HD map (high-definition map). 
+
+<center><img src="https://user-images.githubusercontent.com/78604999/234687960-a7cf611c-5be8-4a9b-a993-137327ab3c78.png" width="60%"></center>
